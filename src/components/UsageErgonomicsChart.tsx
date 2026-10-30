@@ -32,10 +32,7 @@ export const UsageErgonomicsChart: React.FC<UsageErgonomicsChartProps> = ({ tool
       <div>
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
           <div>
-            <span className="text-[11px] font-mono uppercase tracking-wider text-[#86868b] font-medium block">
-              OUTPUT 3 • ERGONOMICS
-            </span>
-            <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-[#1d1d1f] mt-0.5">
+            <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-[#1d1d1f]">
               Usage Statistics & Golden Zone
             </h3>
             <p className="text-xs text-[#86868b] mt-0.5">

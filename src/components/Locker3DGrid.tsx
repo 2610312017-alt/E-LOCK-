@@ -75,10 +75,7 @@ export const Locker3DGrid: React.FC<Locker3DGridProps> = ({
       {/* Top Header: Apple-style Minimalist */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
         <div>
-          <span className="text-[11px] font-mono uppercase tracking-wider text-[#86868b] font-medium block">
-            OUTPUT 1 • INTERACTIVE 3D
-          </span>
-          <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#1d1d1f] mt-0.5">
+          <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#1d1d1f]">
             Digital Locker Grid
           </h3>
           <p className="text-xs sm:text-sm text-[#86868b] mt-1">

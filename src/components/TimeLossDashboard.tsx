@@ -19,10 +19,7 @@ export const TimeLossDashboard: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-8">
         <div>
-          <span className="text-[11px] font-mono uppercase tracking-wider text-[#86868b] font-medium block">
-            OUTPUT 6 • PRODUCTIVITY
-          </span>
-          <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#1d1d1f] mt-0.5">
+          <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#1d1d1f]">
             Time-Loss Reduction & ROI
           </h3>
           <p className="text-xs sm:text-sm text-[#86868b] mt-1">

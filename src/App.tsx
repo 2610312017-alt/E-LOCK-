@@ -305,19 +305,12 @@ export default function App() {
       </main>
 
       {/* Clean Apple-style Minimal Footer */}
-      <footer className="border-t border-black/[0.06] bg-white py-8 px-6 text-center text-xs text-[#86868b]">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-4 h-4 rounded-full bg-black flex items-center justify-center text-white">
-              <span className="text-[8px] font-bold">E</span>
-            </div>
-            <span className="font-semibold text-slate-900">E-LOCK Smart Locker</span>
-            <span>• Academic Systems Engineering Coursework</span>
+      <footer className="border-t border-black/[0.06] bg-white py-6 px-6 text-center text-xs text-[#86868b]">
+        <div className="max-w-6xl mx-auto flex items-center justify-center gap-2">
+          <div className="w-4 h-4 rounded-full bg-black flex items-center justify-center text-white">
+            <span className="text-[8px] font-bold">E</span>
           </div>
-
-          <p className="text-[11px]">
-            Designed with Apple minimalist principles • Virtual Strain-Gauge Bridge • 2D Spatial Proximity
-          </p>
+          <span className="font-semibold text-slate-900">E-LOCK Smart Locker</span>
         </div>
       </footer>
 
