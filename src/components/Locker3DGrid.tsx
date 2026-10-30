@@ -328,14 +328,24 @@ export const Locker3DGrid: React.FC<Locker3DGridProps> = ({
                           {/* Minimalist Clean Bevel Line */}
                           <div className="h-[1px] w-full bg-black/[0.04] rounded-full my-1" />
 
-                          {/* Tool Name */}
-                          <div>
-                            <p className="text-xs font-semibold text-slate-900 line-clamp-1 leading-snug group-hover:text-black transition-colors">
-                              {tool.name}
-                            </p>
-                            <p className="text-[10px] text-slate-400 truncate mt-0.5 font-mono">
-                              {tool.model}
-                            </p>
+                          {/* Tool Name with Miniature Context Image */}
+                          <div className="flex items-center gap-2.5 my-auto">
+                            <div className="w-10 h-10 rounded-xl bg-white/90 border border-black/[0.06] p-1 flex items-center justify-center shrink-0 shadow-2xs group-hover:scale-105 transition-transform overflow-hidden">
+                              <img
+                                src={tool.image}
+                                alt={tool.name}
+                                className="w-full h-full object-contain"
+                                loading="lazy"
+                              />
+                            </div>
+                            <div className="min-w-0 flex-1">
+                              <p className="text-xs font-semibold text-slate-900 line-clamp-1 leading-snug group-hover:text-black transition-colors">
+                                {tool.name}
+                              </p>
+                              <p className="text-[10px] text-slate-400 truncate mt-0.5 font-mono">
+                                {tool.model}
+                              </p>
+                            </div>
                           </div>
 
                           {/* Bottom Door Controls */}
