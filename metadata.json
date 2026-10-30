@@ -1,0 +1,6 @@
+{
+  "name": "E-LOCK Smart Locker",
+  "description": "Industrial tool management and smart locker simulation system with 3D locker grid, load cell verification, factory route mapping, and productivity analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
